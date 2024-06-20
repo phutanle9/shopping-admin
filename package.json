@@ -1,60 +1,50 @@
 {
-  "name": "admin_shop",
-  "version": "0.1.0",
-  "private": true,
-  "homepage": "http://phutanle9.github.io/assignment03-admin",
-  "proxy": "https://assignment03-server.onrender.com",
-  "dependencies": {
-    "@emotion/react": "^11.10.5",
-    "@emotion/styled": "^11.10.5",
-    "@fortawesome/fontawesome-svg-core": "^6.5.2",
-    "@fortawesome/free-solid-svg-icons": "^6.5.2",
-    "@fortawesome/react-fontawesome": "^0.2.2",
-    "@mui/icons-material": "^5.10.14",
-    "@mui/material": "^5.10.16",
-    "@testing-library/jest-dom": "^5.11.9",
-    "@testing-library/react": "^11.2.3",
-    "@testing-library/user-event": "^12.6.2",
-    "alertifyjs": "^1.13.1",
-    "axios": "^0.27.2",
-    "bootstrap": "^5.3.2",
-    "jquery": "^3.7.1",
-    "query-string": "^6.13.8",
-    "react": "^17.0.1",
-    "react-dom": "^17.0.1",
-    "react-loader-spinner": "^5.3.4",
-    "react-router-dom": "^6.4.3",
-    "react-scripts": "^4.0.1",
-    "socket.io-client": "^3.1.0",
-    "web-vitals": "^0.2.4"
-  },
-  "scripts": {
-    "start": " set PORT=3001 && react-scripts --openssl-legacy-provider start",
-    "build": "react-scripts --openssl-legacy-provider build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
-  },
-  "eslintConfig": {
-    "extends": [
-      "react-app",
-      "react-app/jest"
-    ]
-  },
-  "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
-  },
-  "devDependencies": {
-    "gh-pages": "^6.1.1"
-  }
+	"name": "admin_shop",
+	"version": "0.1.0",
+	"private": true,
+	"dependencies": {
+		"@emotion/react": "^11.10.5",
+		"@emotion/styled": "^11.10.5",
+		"@mui/icons-material": "^5.10.14",
+		"@mui/material": "^5.10.16",
+		"@testing-library/jest-dom": "^5.11.9",
+		"@testing-library/react": "^11.2.3",
+		"@testing-library/user-event": "^12.6.2",
+		"alertifyjs": "^1.13.1",
+		"axios": "^0.27.2",
+		"bootstrap": "^5.3.2",
+		"jquery": "^3.7.1",
+		"query-string": "^6.13.8",
+		"react": "^17.0.1",
+		"react-dom": "^17.0.1",
+		"react-loader-spinner": "^5.3.4",
+		"react-router-dom": "^6.4.3",
+		"react-scripts": "^4.0.1",
+		"socket.io-client": "^3.1.0",
+		"web-vitals": "^0.2.4"
+	},
+	"scripts": {
+		"start": " set PORT=3001 && react-scripts --openssl-legacy-provider start",
+		"build": "react-scripts build",
+		"test": "react-scripts test",
+		"eject": "react-scripts eject"
+	},
+	"eslintConfig": {
+		"extends": [
+			"react-app",
+			"react-app/jest"
+		]
+	},
+	"browserslist": {
+		"production": [
+			">0.2%",
+			"not dead",
+			"not op_mini all"
+		],
+		"development": [
+			"last 1 chrome version",
+			"last 1 firefox version",
+			"last 1 safari version"
+		]
+	}
 }
